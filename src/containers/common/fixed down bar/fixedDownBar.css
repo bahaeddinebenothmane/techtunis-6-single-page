@@ -1,0 +1,27 @@
+.FixedDownBar{
+    background-color: #e6d49d;
+     position: fixed;
+     bottom: 0px;
+     width: 70% ;
+     z-index: 6;
+}
+.FixedDownBarList {
+    overflow: scroll;
+    height: 200px;
+}
+.FixedDownBarMobile{
+    background-color: #e6d49d;
+     position: fixed;
+     bottom: 0px;
+     width: 100% ;
+     z-index: 6;
+}
+.FixedDownBarButtons{
+    display: flex;
+    justify-content: space-around
+}
+.FixedDownBarButtonsMobile{
+    display: flex;
+    
+    /* flex-direction:column; */
+}
